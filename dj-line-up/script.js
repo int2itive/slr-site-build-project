@@ -36,10 +36,12 @@ var ready = (callback) => {
       
       if (seq === thisDay) {
         //console.log((58 - 24) / 2);
-        let p = elem.parentElement;
+        let p = elem.parentElement; console.log(p);
         let t = p.querySelector('.tab-content');
         t.style.height = parseInt(t.querySelector('.slr-tab-content-wrap').offsetHeight + 17) + 'px';
+        var lab = p.getElementsByTagName('label'); console.log(lab);
         elem.checked = true;
+        //lab.click();
       }
 
     });

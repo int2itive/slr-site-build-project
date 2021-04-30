@@ -504,6 +504,7 @@ input:checked ~ .tab-content {
 .show-time-emph span {
   color: #2c3e50;
   color: #1a252f;
+  /* color: #212121; */
 }
 
 .detail-container {
